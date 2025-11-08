@@ -18,7 +18,7 @@ namespace RPSGameTests
 		}
 		TEST_METHOD(Player2Wins)
 		{
-			char player1[] = "paper";
+			char player1[] = "Paper";
 			char player2[] = "scissors";
 			Assert::AreEqual("Player 2", rcsGame(player1, player2));
 		}
